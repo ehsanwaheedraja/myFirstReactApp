@@ -4,11 +4,13 @@ import Logo from "./Components/logo.js";
 import CaughtPokemon from "./Components/CaughtPokemon.js";
 
 function App() {
+  var abilities = ["Anticipation", "Adaptability", "Run-Away"];
+  let date = new Date().toLocaleDateString();
   return (
     <div>
-      <Logo />
-      <BestPokemon />
-      <CaughtPokemon />
+      <Logo appName="Pokedex" />
+      <BestPokemon abilities={abilities} />
+      <CaughtPokemon date={date} />
     </div>
   );
 }
