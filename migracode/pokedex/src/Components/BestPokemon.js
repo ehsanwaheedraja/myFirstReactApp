@@ -16,3 +16,19 @@ const BestPokemon = (props) => {
 };
 
 export default BestPokemon;
+
+// data to add
+
+// pokemonNames: [],
+// componentDidMount() {
+//   fetch(
+//     `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${this.props.date}&api_key=gnesiqnKCJMm8UTYZYi86ZA5RAnrO4TAR9gDstVb`
+//   )
+//     .then((res) => res.json())
+//     .then((data) => {
+//       this.setState({
+//         isLoading: false,
+//         imgSrc: data.photos[0].img_src,
+//       });
+//     });
+// }
